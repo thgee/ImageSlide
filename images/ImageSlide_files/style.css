@@ -1,0 +1,31 @@
+/* 270 x 180 */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.elbum {
+  width: 270px;
+}
+.images {
+  display: flex;
+  height: 180px;
+}
+
+button {
+  width: 180px;
+  height: 25px;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: gainsboro;
+}
+.prev {
+  float: left;
+}
+.next {
+  float: right;
+}
